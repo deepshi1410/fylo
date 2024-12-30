@@ -1,0 +1,16 @@
+{
+  "name": "fylo-website-tailwind",
+  "version": "1.0.0",
+  "description": "this is a simple website for fylo, designed solely using tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./styles.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./styles.css -o ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
